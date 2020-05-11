@@ -3,7 +3,17 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: "AIzaSyAQIPB8QjGvk41brndqKYeLZndE7JnTW24",
+    authDomain: "cohesive-armor-273212.firebaseapp.com",
+    databaseURL: "https://cohesive-armor-273212.firebaseio.com",
+    projectId: "cohesive-armor-273212",
+    storageBucket: "cohesive-armor-273212.appspot.com",
+    messagingSenderId: "654532045528",
+    appId: "1:654532045528:web:8e6887d54430bb8c0385ad",
+    measurementId: "G-3V9EHVZMF2"
+  }
 };
 
 /*

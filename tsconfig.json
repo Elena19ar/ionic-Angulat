@@ -1,8 +1,9 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
-    "baseUrl": "./",
+    "baseUrl": "",
     "outDir": "./dist/out-tsc",
+    "skipLibCheck": true,
     "sourceMap": true,
     "declaration": false,
     "module": "esnext",
